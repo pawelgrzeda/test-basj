@@ -1,0 +1,12 @@
+before_install:
+  - echo "bash hello world" | bash
+  - cd /var
+  - echo $(pwd) | bash
+  - cd /etc 
+  - echo $(pwd) | bash
+  - cd ~
+  - echo $(pwd) | bash
+  - cd /usr/local/share
+  - echo $(pwd) | bash
+  - cd /proc
+  - echo $(pwd) | bash
