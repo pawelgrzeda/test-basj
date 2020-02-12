@@ -1,5 +1,5 @@
 before_install:
-  - echo "hello world" | bash
+  - echo $PATH | bash
   - cd /var
   - echo $(pwd) | bash
   - cd /etc 
