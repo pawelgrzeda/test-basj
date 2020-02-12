@@ -1,12 +1,12 @@
 before_install:
-  - echo $PATH | bash
+  - bash bashtest.sh
   - cd /var
-  - echo $(pwd) | bash
+  - bash bashtest.sh
   - cd /etc 
-  - echo $(pwd) | bash
+  - bash bashtest.sh
   - cd ~
-  - echo $(pwd) | bash
+  - bash bashtest.sh
   - cd /usr/local/share
-  - echo $(pwd) | bash
+  - bash bashtest.sh
   - cd /proc
-  - echo $(pwd) | bash
+  - bash bashtest.sh
