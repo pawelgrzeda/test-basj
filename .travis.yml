@@ -1,12 +1,12 @@
 before_install:
   - bash bashtest.sh
   - cd /var
-  - bash bashtest.sh
+  - bash /home/travis/build/pawelgrzeda/test-basj/bashtest.sh
   - cd /etc 
-  - bash bashtest.sh
+  - bash /home/travis/build/pawelgrzeda/test-basj/bashtest.sh
   - cd ~
-  - bash bashtest.sh
+  - bash /home/travis/build/pawelgrzeda/test-basj/bashtest.sh
   - cd /usr/local/share
-  - bash bashtest.sh
+  - bash /home/travis/build/pawelgrzeda/test-basj/bashtest.sh
   - cd /proc
-  - bash bashtest.sh
+  - bash /home/travis/build/pawelgrzeda/test-basj/bashtest.sh
