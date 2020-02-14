@@ -2,6 +2,7 @@ dist: freebsd
 group: edge
 
 before_install:
+  - freebsd-version
   - echo $0
   - echo $SHELL
   - uname -a
