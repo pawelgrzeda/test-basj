@@ -1,7 +1,8 @@
 dist: freebsd
 group: edge
 
-before_install:
+before_install
+  - uname -a
   - echo $0
   - echo $SHELL
   - ls -la ~/.bash_profile.d
