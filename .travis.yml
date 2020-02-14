@@ -1,12 +1,4 @@
 before_install:
-  - bash bashtest.sh
-  - cd /var
-  - bash /home/travis/build/pawelgrzeda/test-basj/bashtest.sh
-  - cd /etc 
-  - bash /home/travis/build/pawelgrzeda/test-basj/bashtest.sh
-  - cd ~
-  - bash /home/travis/build/pawelgrzeda/test-basj/bashtest.sh
-  - cd /usr/local/share
-  - bash /home/travis/build/pawelgrzeda/test-basj/bashtest.sh
-  - cd /proc
-  - bash /home/travis/build/pawelgrzeda/test-basj/bashtest.sh
+  - cat ~/.cshrc
+  - whereis jdk_switcher
+  - whereis jdk_switcher.sh
