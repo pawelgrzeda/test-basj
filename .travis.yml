@@ -7,5 +7,6 @@ before_install:
   - whoami
   - pwd
   - cat ~/.cshrc
+  - cat ~/.bashrc
   - whereis jdk_switcher
   - whereis jdk_switcher.sh
