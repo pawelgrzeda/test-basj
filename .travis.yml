@@ -2,6 +2,8 @@ dist: freebsd
 group: edge
 
 before_install:
+  - echo $0
+  - echo $SHELL
   - whoami
   - pwd
   - cat ~/.cshrc
