@@ -1,3 +1,6 @@
+dist: freebsd
+group: edge
+
 before_install:
   - cat ~/.cshrc
   - whereis jdk_switcher
