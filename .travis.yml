@@ -2,15 +2,5 @@ dist: freebsd
 group: dev
 
 before_install:
-  - freebsd-version
-  - echo $0
-  - echo $SHELL
-  - uname -a
-  - whoami
-  - pwd
-  - ls -la ~/.bash_profile.d
-  - cat ~/.bash_profile.d/travis-java.bash
-  - cat ~/.cshrc
-  - cat ~/.bashrc
   - whereis jdk_switcher
   - whereis jdk_switcher.sh
