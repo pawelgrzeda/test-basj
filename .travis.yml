@@ -6,10 +6,11 @@ before_install:
   - echo $0
   - echo $SHELL
   - uname -a
-  - ls -la ~/.bash_profile.d
-  - cat ~/.bash_profile.d/travis-java.bash
   - whoami
   - pwd
-  - sudo cat /root/.cshrc
+  - ls -la ~/.bash_profile.d
+  - cat ~/.bash_profile.d/travis-java.bash
+  - cat ~/.cshrc
+  - cat ~/.bashrc
   - whereis jdk_switcher
   - whereis jdk_switcher.sh
