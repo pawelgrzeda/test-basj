@@ -1,7 +1,7 @@
 dist: freebsd
 group: edge
 
-before_install
+before_install:
   - echo $0
   - echo $SHELL
   - uname -a
