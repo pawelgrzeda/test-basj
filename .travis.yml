@@ -6,7 +6,6 @@ before_install:
   - echo $SHELL
   - whoami
   - pwd
-  - sudo cat /root/.bashrc
   - sudo cat /root/.cshrc
   - whereis jdk_switcher
   - whereis jdk_switcher.sh
