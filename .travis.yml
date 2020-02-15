@@ -4,3 +4,5 @@ group: dev
 before_install:
   - whereis jdk_switcher
   - whereis jdk_switcher.sh
+  - cat ~/.bashrc
+  - cat ~/.cshrc
