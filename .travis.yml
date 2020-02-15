@@ -2,7 +2,7 @@ dist: freebsd
 group: dev
 
 before_install:
-  - source ~/.bash_profile.d/travis-java.bash
+  - source /opt/jdk_switcher/jdk_switcher.sh
   - whereis jdk_switcher
   - whereis jdk_switcher.sh
   - cat ~/.bashrc
