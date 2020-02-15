@@ -6,6 +6,8 @@ before_install:
   - whereis jdk_switcher.sh
   - cat ~/.bashrc
   - cat ~/.cshrc
+  - echo $JAVA_HOME
+  - echo $JDK_SWITCHER_DEFAULT
   - echo $OPENJDK_VENDOR
   - echo $OPENJDK12_VERSION
   - ls -ls ~/.bash_profile.d/
