@@ -2,7 +2,8 @@ dist: freebsd
 group: dev
 
 before_install:
-  - source /opt/jdk_switcher/jdk_switcher.sh
+  - ls /usr/local/bin
+  - ls /bin
   - whereis jdk_switcher
   - whereis jdk_switcher.sh
   - cat ~/.bashrc
