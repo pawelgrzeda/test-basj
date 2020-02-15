@@ -8,3 +8,7 @@ before_install:
   - cat ~/.cshrc
   - echo $OPENJDK_VENDOR
   - echo $OPENJDK12_VERSION
+  - ls -ls ~/.bash_profile.d/
+  - cat ~/.bash_profile.d/travis-java.bash
+  - ls -la /opt/jdk_switcher
+  - cat /opt/jdk_switcher/jdk_switcher.sh
