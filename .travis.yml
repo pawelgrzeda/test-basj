@@ -2,6 +2,7 @@ dist: freebsd
 group: dev
 
 before_install:
+  - cat /etc/passwd
   - cat /opt/jdk_switcher/jdk_switcher.sh
   - ls /usr/local/bin
   - ls /bin
@@ -17,3 +18,4 @@ before_install:
   - cat ~/.bash_profile.d/travis-java.bash
   - ls -la /opt/jdk_switcher
   - cat /opt/jdk_switcher/jdk_switcher.sh
+  - cat /etc/passwd
