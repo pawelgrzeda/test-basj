@@ -2,11 +2,7 @@ dist: freebsd
 group: dev
 
 before_install:
-  - diff jdk_switcher.sh /opt/jdk_switcher/jdk_switcher.sh
-  - cat /etc/passwd
-  - cat /opt/jdk_switcher/jdk_switcher.sh
-  - ls /usr/local/bin
-  - ls /bin
+  - rvm list known
   - whereis jdk_switcher
   - whereis jdk_switcher.sh
   - cat ~/.bashrc
