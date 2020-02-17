@@ -2,6 +2,7 @@ dist: freebsd
 group: dev
 
 before_install:
+  - file /opt/jdk_switcher/jdk_switcher.sh 
   - rvm list known
   - whereis jdk_switcher
   - whereis jdk_switcher.sh
