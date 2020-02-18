@@ -2,18 +2,9 @@ dist: freebsd
 group: dev
 
 before_install:
+  - ls -la /home/travis/.pyenv/libexec
+  - find /home/travis/.pyenv/libexec -type f -name *.bash
+  - find /home/travis/.pyenv/libexec -type f -name "*.bash"
+  - find /home/travis/.pyenv/libexec -type f -name "%pyenv%"
   - file /opt/jdk_switcher/jdk_switcher.sh 
-  - rvm list known
-  - whereis jdk_switcher
-  - whereis jdk_switcher.sh
-  - cat ~/.bashrc
-  - cat ~/.cshrc
-  - echo $JAVA_HOME
-  - echo $JDK_SWITCHER_DEFAULT
-  - echo $OPENJDK_VENDOR
-  - echo $OPENJDK12_VERSION
-  - ls -ls ~/.bash_profile.d/
-  - cat ~/.bash_profile.d/travis-java.bash
-  - ls -la /opt/jdk_switcher
-  - cat /opt/jdk_switcher/jdk_switcher.sh
-  - cat /etc/passwd
+
