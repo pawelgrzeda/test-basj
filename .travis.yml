@@ -8,4 +8,5 @@ before_install:
   - find /home/travis/.pyenv/libexec -type f -name "%pyenv%"
   - file /opt/jdk_switcher/jdk_switcher.sh 
   - python --version
-
+  - artifacts --version
+  - artifacts upload
