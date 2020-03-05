@@ -1,12 +1,7 @@
 dist: freebsd
-group: dev
+group: edge
 
 before_install:
-  - ls -la /home/travis/.pyenv/libexec
-  - find /home/travis/.pyenv/libexec -type f -name *.bash
-  - find /home/travis/.pyenv/libexec -type f -name "*.bash"
-  - find /home/travis/.pyenv/libexec -type f -name "%pyenv%"
-  - file /opt/jdk_switcher/jdk_switcher.sh 
   - python --version
   - artifacts --version
-  - artifacts upload
+ 
