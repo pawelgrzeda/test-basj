@@ -1,7 +1,9 @@
 dist: freebsd
-group: dev
+group: edge
 
 before_install:
   - python --version
-  - artifacts -v
+  - ant -version
+  - mvn -v
+  - gradle --version
  
