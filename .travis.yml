@@ -3,5 +3,5 @@ group: edge
 
 before_install:
   - python --version
-  - artifacts --version
+  - artifact --version
  
