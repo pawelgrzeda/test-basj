@@ -2,8 +2,6 @@ dist: freebsd
 group: edge
 
 before_install:
-  - python --version
-  - ant -version
-  - mvn -v
-  - gradle --version
+  - ls -la /usr/local/bin
+  - ls -la /usr/local/bin | grep l
  
