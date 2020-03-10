@@ -3,5 +3,5 @@ group: edge
 
 before_install:
   - ls -la /usr/local/bin
-  - ls -la /usr/local/bin | grep l
+  - ls -la /usr/local/bin | grep lr
  
