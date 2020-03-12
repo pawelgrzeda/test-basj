@@ -1,5 +1,5 @@
-dist: freebsd
-group: dev
+os: freebsd
+group: edge
 
 before_install:
   - ls -la /usr/local/bin
