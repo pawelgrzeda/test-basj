@@ -1,7 +1,11 @@
-os: freebsd
-group: edge
+os: linux
+dist: xenial
+arch: arm64-graviton2
+group: dev
 
 before_install:
   - ls -la /usr/local/bin
   - ls -la /usr/local/bin | grep lr
  
+ script:
+   - echo "dupa"
