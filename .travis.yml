@@ -8,3 +8,4 @@ script:
    - uname -m
    - uname -a
    - lscpu
+   - cat /proc/cpuinfo
