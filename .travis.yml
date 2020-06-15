@@ -5,3 +5,5 @@ group: dev
  
 script:
    - echo "dupa"
+   - uname -m
+   - uname -a
