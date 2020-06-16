@@ -1,6 +1,6 @@
 os: linux
 dist: bionic
-arch: arm64-graviton2
+arch: arm64
 language: go
  
 script:
