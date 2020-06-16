@@ -3,7 +3,6 @@ dist: bionic
 arch: arm64-graviton2
  
 script:
-   - echo "dupa"
    - uname -m
    - uname -a
    - lscpu
