@@ -4,7 +4,9 @@ arch: arm64-graviton2
 language: go
  
 script:
-   - uname -m
-   - uname -a
-   - lscpu
-   - cat /proc/cpuinfo
+   - rvm list known
+   - ruby -v
+   - #uname -m
+   - #uname -a
+   - #lscpu
+   - #cat /proc/cpuinfo
