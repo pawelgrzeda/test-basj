@@ -1,11 +1,11 @@
 os: linux
-dist: focal
-arch: arm64-graviton2
+dist: xenial
+#arch: arm64-graviton2
 language: go
  
 script:
-   - rvm list known
-   - ruby -v
+   - echo "test"
+   - #ruby -v
    - #uname -m
    - #uname -a
    - #lscpu
